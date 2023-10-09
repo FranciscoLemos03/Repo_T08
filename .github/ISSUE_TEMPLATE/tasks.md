@@ -21,14 +21,14 @@ Descrição breve
 - [ ] Sub-Task 1: Descreva a primeira sub-task necessária.
 - [ ] Sub-Task 2: Descreva a segunda sub-task necessária.
 
-## Informações Adicionais
-- **Responsável**: @responsavel
-- **Prioridade**: Alta/Média/Baixa
-- **Tempo Estimado**: X horas/dias
+## Additional Information
+- **Assigned to**: @responsavel
+- **Priority**: Alta/Média/Baixa
+- **Estimated time**: X horas/dias
 - **Sprint**: Sprint X
 
 ## Related Issues
-- Issue relacionada: #número_da_issue_relacionada
+- Related Issue : #número_da_issue_relacionada
 
-## Observações
-Adicione quaisquer informações ou observações relevantes relacionadas a esta tarefa.
+## Observation
+[Adicione quaisquer informações ou observações relevantes relacionadas a esta tarefa].

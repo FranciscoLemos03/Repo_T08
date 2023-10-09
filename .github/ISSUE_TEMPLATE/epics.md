@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-### Nome da Epic:
+### Epic Name:
 [Descrição da Epic]
 
 ### Tasks:
@@ -15,7 +15,7 @@ assignees: ''
 - [Task 2]
 - ...
 
-### Epics Relacionados:
+### Reltated Epics:
 - [Epic relacionado 1]
 - ...
 
@@ -27,11 +27,11 @@ assignees: ''
 ### Story Points:
 [Estimativa da pontuação da Epic]
 
-### Responsável:
+### Assigned to:
 [Responsável pela Epic]
 
-### Data de Início Planejada:
+### Start Date:
 [Data planejada para o início da Epic]
 
-### Data de Conclusão Planejada:
+### End Date:
 [Data planejada para a conclusão da Epic]

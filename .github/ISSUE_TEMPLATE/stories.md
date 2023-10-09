@@ -9,7 +9,7 @@ assignees: ''
 
 ## Story
 
-### Descrição
+### Description
 [Descrição concisa da funcionalidade que será desenvolvida]
 
 ### Acceptance Criteria
@@ -23,14 +23,14 @@ assignees: ''
 ### Estimate
 [Estimativa de pontos ou horas necessários para completar a história]
 
-### Links Uteis
+### Related Usefull Links
 [links para documentação relacionadas a esta história]
 
-### Observações
+### Observations
 [Adicione quaisquer outras informações relevantes ou observações]
 
 ---
 
-**Responsáveis:**
+**Assigned to:**
 - [ ] [Nome do responsável]
 - [ ] [Nome do responsável]
