@@ -1,41 +1,72 @@
-import { StyleSheet, Text, View, Image, TextInput } from 'react-native';
+import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <View style={styles.banner}>
-        <View style={styles.imageContainer}>
-          <Image style={styles.logo} source={require('../hsh-app/assets/logo.png')} />
-          <Image style={styles.user} source={require('../hsh-app/assets/SayMyName.png')} />
+    <ScrollView>
+      <View style={styles.container}>
+        <View style={styles.banner}>
+          <View style={styles.imageContainer}>
+            <Image style={styles.logo} source={require('../hsh-app/assets/logo.png')} />
+            <Image style={styles.user} source={require('../hsh-app/assets/SayMyName.png')} />
+          </View>
+        </View>
+
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido do Joaquim</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido do Alberto</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido do Joao</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido do Eduardo</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido da Maria</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido da Monica</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido do Roberto</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido da Joana</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.containerbtn}>
+          <TouchableOpacity style={styles.botao}>
+            <Text style={styles.textoBotao}>Pedido da Bruna</Text>
+            <Image style={styles.eye} source={require('../hsh-app/assets/eye.png')} />
+          </TouchableOpacity>
         </View>
       </View>
-
-      <View style={styles.homeContainer}>        
-        <Image style={styles.home} source={require('../hsh-app/assets/House.png')} />
-      </View>
-
-      
-      <Image style={styles.maps} source={require('../hsh-app/assets/Maps.png')} />
-
-      <View style={styles.filterContainerTop}>
-        <Text style={{...styles.title, marginRight: 30, marginLeft: 5}}>Categoria:</Text>
-        <Text style={styles.title}>Preço:</Text>
-      </View>
-
-      <View style={styles.answerContainerTop}>
-        <TextInput style={{marginRight: 15, marginLeft: 5, backgroundColor: '#D3D3D3', borderRadius: 5, fontSize: 15, textAlign: 'center', width: 70}} placeholder="Inserir Aqui...">T3</TextInput>
-        <TextInput style={{marginRight: 15, marginLeft: 5, backgroundColor: '#D3D3D3', borderRadius: 5, fontSize: 15, textAlign: 'center', width: 70}} placeholder="Inserir Aqui...">600</TextInput>
-      </View>
-
-      <View style={styles.answerContainer}>
-          <Text style={{...styles.title}}>Título:</Text>
-          <TextInput style={{marginTop: 15, backgroundColor: '#D3D3D3', borderRadius: 5, fontSize: 15, width: '95%', height: 50}} placeholder="Inserir Aqui..."></TextInput>
-      </View>
-      <View style={styles.answerContainer}>
-          <Text style={{...styles.title}}>Descrição:</Text>
-          <TextInput style={{marginTop: 15, backgroundColor: '#D3D3D3', borderRadius: 5, fontSize: 15, width: '95%', height: 100, top: 0}} placeholder="Inserir Aqui..."></TextInput>
-      </View>
-    </View>
+    </ScrollView>
   );
 }
 
@@ -86,7 +117,6 @@ const styles = StyleSheet.create({
     height: 266,
     overflow: 'hidden',
     color: '#fff',
-    marginTop: 75
   },
 
   home:{
@@ -124,6 +154,54 @@ const styles = StyleSheet.create({
   answerContainer:{
     marginLeft: 5,
     marginTop: 30
-  }
+  },
+  textoPedido: {
+    color: '#7000ff',
+    fontWeight: 'bold',
+    position: 'absolute',
+    right: 0,
+  },
+  containerbtntop:{
+    marginTop: 20,
+    marginLeft: 15,
+    marginRight: 15,
+    marginBottom: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  containerbtn:{
+    marginTop: 20,
+    marginLeft: 15,
+    marginRight: 15,
+    marginBottom: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+    
+    justifyContent: 'center',
+  },
+  textoBotao: {
+    color: '#7000ff',
+    fontWeight: 'bold',
+    position: 'absolute',
+    left: 0,
+    marginLeft: 15
+  },
+  botao: {
+    width: "90%",
+    height: 50,
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderColor: '#7000ff',
+    borderWidth: 3,
+    borderRadius: 10,
+  },
+  eye: {
+    width: 29,
+    height: 24,
+    position: 'absolute',
+    right: 0,
+    marginRight: 15
+  },
 
 });
